@@ -1,0 +1,190 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #B9D1A1;
+    border: 1px solid #FFFFFF1A;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header img {
+    width: 213px;
+    height: 85px;
+    margin-left: -30px;
+    
+}
+.nav__menu a {
+    padding: 10px 20px; 
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px; 
+    text-decoration: none;
+    margin-right: 60px; 
+    margin-left: 60px;
+    color: black;
+}
+footer {
+    background-color: #758664;
+    padding: 20px;
+    text-align: center;
+    position: fixed; /* Change from absolute to fixed */
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+footer img{
+    width: 213px;
+    height: 85px;
+    display: block; /* Зробимо зображення блочним елементом */
+    margin: auto;
+}
+.back-button {
+    width: 130px;
+    height: 35px;
+    border-radius: 70px;
+    background: #84AE7D;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 21px;
+    margin-top: 15px;
+}
+
+.custom-section {
+    width: 550px;
+    height: 411px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 70px;
+    border: none;
+    background: linear-gradient(0deg, #C1CEB4, #C1CEB4),
+                linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1; /* Збільшити індекс для виведення поверх інших елементів */
+}
+.custom-section2 {
+    width: 550px;
+    height: 431px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 70px;
+    border: none;
+    background: linear-gradient(0deg, #C1CEB4, #C1CEB4),
+                linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1; /* Збільшити індекс для виведення поверх інших елементів */
+}
+.custom-section p {
+    color: #000;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 25px;
+}
+.custom-section2 p {
+    color: #000;
+    font-size: 40px;
+    font-weight: small;
+    text-align: center;
+    margin-top: 0px;
+}
+.input-field {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 70px;
+    
+}
+
+
+.login-button {
+    width: 300px;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5A8D68;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 70px;
+}
+.signup-button{
+    width: 150px;
+    padding: 15px;
+    margin-top: -20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5A8D68;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 70px;
+}
+.custom-section a{
+    color: #fff;
+    text-decoration: none;
+}
+.login-button2 {
+    width: 300px;
+    padding: 15px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5A8D68;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 70px;
+}
+.input-field2 {
+    width: 300px;
+    padding: 10px;
+    margin: 5px auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 70px;
+    
+}
+
+
+
+
+
+
+

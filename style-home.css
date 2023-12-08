@@ -1,0 +1,57 @@
+.breeds-section {
+    text-align: center;
+
+}
+
+.breeds-section h2 {
+    font-size: 40px;
+    margin: 0;
+    padding: 20px; /* Додайте бажані відступи */
+}
+
+.search-bar {
+    margin-top: 0px; /* Додайте бажані відступи */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    margin-right: 10px; /* Додайте бажані відступи */
+    border-radius: 70px;
+}
+.alphabet {
+    display: flex;
+    margin-bottom: 120px;
+    margin-top: 10px;
+}
+
+.alphabet a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 5px;
+    font-size: 16px;
+}
+
+.alphabet a:hover {
+    text-decoration: underline;
+}
+.alphabet_fil{
+    margin-bottom: 120px;
+    padding-left:30px;
+}
+.alphabet_fil h1{
+    font-size: 40px;
+}
+.alphabet_fil a {
+    text-decoration: none; /* Відміна підкреслення */
+    color: inherit; /* Збереження кольору тексту, що успадковується від батьківського елементу */
+    display: block; /* Зробити елементи блоками, щоб вони розташовувались вертикально */
+    margin: 0; /* Видалити зовнішні відступи для h1 і a */
+    padding: 10px 0; /* Внутрішні відступи для кращого вигляду */
+    padding-left: 35px;
+    
+}
